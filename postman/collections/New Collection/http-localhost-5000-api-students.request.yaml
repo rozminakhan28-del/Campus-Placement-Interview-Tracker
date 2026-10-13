@@ -1,0 +1,13 @@
+$kind: http-request
+name: http://localhost:5000/api/students
+description: ""
+url: http://localhost:5000/api/applications/1/status
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"status\": \"Shortlisted\"\r
+
+    }"
+order: 1000
